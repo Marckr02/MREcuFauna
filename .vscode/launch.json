@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path C:\\Path\\To\\javafx-sdk-22\\lib --add-modules javafx.base,javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "MREcuFauna_62be883d",
+            "vmArgs": "--module-path C:\\Path\\To\\javafx-sdk-22\\lib --add-modules javafx.base,javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "UserInterface.Form.main",
+            "projectName": "MREcuFauna_62be883d",
+            "vmArgs": "--module-path C:\\Path\\To\\javafx-sdk-22\\lib --add-modules javafx.base,javafx.graphics"
+        }
+    ]
+}

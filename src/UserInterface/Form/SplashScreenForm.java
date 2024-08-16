@@ -1,14 +1,13 @@
 package UserInterface.Form;
 
 import java.awt.BorderLayout;
-import java.net.URL;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JProgressBar;
 
-import UserInterface.RMStyle;
+import UserInterface.Resource.RMStyle;
 
 public abstract class SplashScreenForm   {
     private static JFrame       frmSplash;
